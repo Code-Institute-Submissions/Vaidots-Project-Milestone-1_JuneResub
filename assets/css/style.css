@@ -61,8 +61,8 @@ body {
     
 }
 
-#menu a:hover {
-    border-bottom: 1px solid blanchedalmond;
+#menu a:hover::after {
+    width: 100%;
 }
 
 #menu a {
@@ -71,13 +71,13 @@ body {
     
 }
 
+#menu a:hover {
+    border-bottom: 1px solid blanchedalmond;
+}
+
+
+
 
 
 
 /* yoga-image */
-
-
-
-
-
-
