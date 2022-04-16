@@ -4,7 +4,80 @@
     margin: 0;
     padding: 0;
     border: none;
+    
 }
 body {
-    font-family: Arial;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: blanchedalmond;
+
 }
+
+/* headings and logo */
+
+.header {
+    min-height: 60vh;
+    width: 100%;
+    background-image: url('../images/banner..jpg');
+    background-position: center;
+    background-size: cover;
+}
+   
+#logo {
+    float: left;
+    font-size: 260%;
+    margin-left: 50px;
+    line-height: 50px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 120px;
+}
+
+.centered {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:white;
+    font-family: 'Beau Rivage', cursive;
+    text-transform: uppercase;
+  }
+  .centered > h1 {
+      font-size: 50px;
+  }
+
+/* navigation lines */
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+    font-family: 'Oswald', sans-serif;
+    
+}
+#menu, #logo {
+    line-height: 150px;
+    
+}
+
+#menu a:hover {
+    border-bottom: 1px solid blanchedalmond;
+}
+
+#menu a {
+    text-decoration: none;
+    color: whitesmoke;
+    
+}
+
+
+
+
+/* yoga-image */
+
+
+
+
+
+
