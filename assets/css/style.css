@@ -80,4 +80,33 @@ body {
 
 
 
-/* yoga-image */
+/*  classes and schedule*/
+
+#yoga-exercise {
+    width: 450px;
+    height: 400px;
+    bottom: 30px;
+    right: 450px;
+    background: url('../images/yoga-exercise.jpg') no-repeat center center;
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+
+}
+
+#meditation {
+    width: 450px;
+    height: 400px;
+    background: url('../images/meditation.jpg') ;
+     padding-top: 30px;
+    width: 33%;
+    float: right;
+} 
+
+#pilates {
+    width: 450px;
+    height: 430px;
+    background: url('../images/pilates.jpg') no-repeat center center;
+    width: 33%;
+    margin: 0 auto;
+}
