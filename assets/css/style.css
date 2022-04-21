@@ -136,6 +136,7 @@ li a {
 } */
 
 .class-content-wrapper {
+    display:flex;
     max-width: 1200px; 
     padding: 20px 0;
     margin: 0 auto;
