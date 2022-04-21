@@ -83,31 +83,80 @@ li a {
 
 /*  classes and schedule */
 
-#yoga-exercise {
+/* #yoga-exercise {
     width: 450px;
     height: 400px;
     bottom: 30px;
     right: 450px;
-    background: url('../images/yoga-exercise.jpg') no-repeat center center;
-    padding-top: 30px;
+    /* background: url('../images/yoga-exercise.jpg') no-repeat center center; */
+    /* padding-top: 30px;
     width: 33%;
-    float: left;
+    float: left; */
 
-}
+/* } */
 
-#meditation {
+/* #meditation {
     width: 450px;
-    height: 400px;
-    background: url('../images/meditation.jpg') ;
-     padding-top: 30px;
+    height: 400px; */
+    /* background: url('../images/meditation.jpg') ; */
+     /* padding-top: 30px;
     width: 33%;
     float: right;
-} 
+}  */
 
-#pilates {
+/* #pilates {
     width: 450px;
-    height: 430px;
-    background: url('../images/pilates.jpg') no-repeat center center;
-    width: 33%;
+    height: 430px; */
+    /* background: url('../images/pilates.jpg') no-repeat center center; */
+    /* width: 33%;
+    /* margin: 0 auto; */
+/* }  */
+
+/* #pilates:hover  {
+    filter: blur(2px) brightness(70%);
+} */
+
+/* * {
+    box-sizing: border-box;
+  }
+ 
+
+.inline-block {
+    float: left;
+    width: 33.33%;
+  padding: 5px;
+}
+   
+
+
+#banner::after {
+    content: "";
+  clear: both;
+  display: table;
+} */
+
+.class-content-wrapper {
+    max-width: 1200px; 
+    padding: 20px 0;
     margin: 0 auto;
 }
+
+
+
+.text-right {
+    float: right;
+}
+
+.picture-left {
+    text-align: center;
+    padding: 50px;
+}
+
+.class-text-right {
+    text-align: justify;
+    padding: 50px;
+    line-height: 25px;
+    
+}
+
+/* Pasidaryk klases nuotraukas,nuspresk are su hoveriu ar salia tekstu 
