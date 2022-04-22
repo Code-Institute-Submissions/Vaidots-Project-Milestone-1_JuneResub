@@ -137,7 +137,8 @@ li a {
 
 .class-content-wrapper {
     display:flex;
-    max-width: 1200px; 
+    max-width: 1200px;
+    width: 100%; 
     padding: 20px 0;
     margin: 0 auto;
 }
@@ -146,11 +147,11 @@ li a {
 
 .text-right {
     float: right;
+    width: 50%;
 }
 
 .picture-left {
-    text-align: center;
-    padding: 50px;
+    width: 50%;
 }
 
 .class-text-right {
@@ -159,5 +160,30 @@ li a {
     line-height: 25px;
     
 }
+
+.text-left {
+    float:left;
+}
+
+.class-text-left {
+    text-align: justify;
+    padding: 50px;
+    line-height: 25px;
+}
+
+.picture-right {
+    width: 50%;
+}
+/* .text-left h3, .text-right h3 {
+    margin-top: 0;
+}
+
+.text-left h3 {
+    text-align: right;
+}
+.text-right h3 {
+    text-align: left;
+} */
+
 
 /* Pasidaryk klases nuotraukas,nuspresk are su hoveriu ar salia tekstu 
