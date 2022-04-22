@@ -81,11 +81,11 @@ li a {
 
 
 
-/*  classes */
+/*  classes and schedule */
 
 .class-content-wrapper {
     display:flex;
-    max-width: 1200px;
+    max-width: 1500px;
     width: 100%; 
     padding: 20px 0;
     margin: 0 auto;
@@ -99,7 +99,7 @@ li a {
 }
 
 .picture-left {
-    width: 50%;
+    width: 45%;
 }
 
 .class-text-right {
@@ -107,11 +107,13 @@ li a {
     padding: 50px;
     line-height: 25px;
     margin-left: 5%;
+
     
 }
 
 .text-left {
     float:left;
+    width: 50%;
 }
 
 .class-text-left {
@@ -119,18 +121,11 @@ li a {
     padding: 50px;
     line-height: 25px;
     margin-left: 5%;
+
 }
 
 .picture-right {
     width: 50%;
-}
-
-.picture-left:hover {
-   transform: scale(1.1);
-}
-
-.picture-right:hover {
-    transform: scale(1.1);
 }
 
 hr {
@@ -138,8 +133,17 @@ hr {
     width: 100%;
     margin: 10px 0;
 }
+.picture-left:hover {
+    transform: scale(1.1);
+ }
+ 
+ .picture-right:hover {
+     transform: scale(1.1);
+ }
+ 
+ 
 
-ul {
+.class-section-hr {
     display: table;
     margin-right: auto;
     margin-left: auto;
@@ -155,7 +159,5 @@ h3 {
 p   {
     margin-bottom: 5%
 }
-
-
 
 /* Pasidaryk klases nuotraukas,nuspresk are su hoveriu ar salia tekstu 
