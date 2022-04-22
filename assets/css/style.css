@@ -180,16 +180,22 @@ hr {
     width: 100%;
     margin: 10px 0;
 }
-/* .text-left h3, .text-right h3 {
-    margin-top: 0;
+
+ul {
+    display: table;
+    margin-right: auto;
+    margin-left: auto;
+  
 }
 
-.text-left h3 {
-    text-align: right;
+h3 {
+    text-align: center;
+    margin-bottom: 3%
 }
-.text-right h3 {
-    text-align: left;
-} */
 
+
+p   {
+    margin-bottom: 5%
+}
 
 /* Pasidaryk klases nuotraukas,nuspresk are su hoveriu ar salia tekstu 
