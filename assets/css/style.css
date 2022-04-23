@@ -162,7 +162,13 @@ p   {
 
 /* Our team that will make your day amazing! */
 
-
+.our-team-center {
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 3%;
+    font-size: 2rem;
+    padding-bottom: 3%;
+}
 
 .team-shapping > img {
     border-radius: 50%;
@@ -193,3 +199,4 @@ p   {
 .team-shapping > p {
     margin-top: 2%;
 }
+
