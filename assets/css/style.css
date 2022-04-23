@@ -100,6 +100,7 @@ li a {
 
 .picture-left {
     width: 45%;
+    
 }
 
 .class-text-right {
@@ -126,6 +127,10 @@ li a {
 
 .picture-right {
     width: 50%;
+   
+}
+.picture {
+    border-radius: 10%;
 }
 
 hr {
@@ -211,21 +216,18 @@ hr {
     padding-bottom: 3%;
 }
 
-#schedule {
-    /* background-color: white;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    background-position: center;
-    overflow: hidden; */
+.schedule-container{
+    display: flex;
+  justify-content: space-evenly;
 }
 
 .schedule-time-day {
     background-color: peachpuff;
-    width: 10%;
-    float: left;
-    margin-left: 18%;
+    width: 200px;
     text-align: center;
+    padding: 10px;
+    border-radius: 10%;
+
     
 
 }
@@ -243,4 +245,3 @@ hr {
 .schedule-time-day:hover {
     transform: scale(1.3);
  }
-}
