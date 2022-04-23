@@ -179,3 +179,17 @@ p   {
 .team {
     display: flex; justify-content:space-around;
 }
+
+.team-shapping {
+    text-align: center;
+   
+}
+
+.team-shapping > h2 {
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.team-shapping > p {
+    margin-top: 2%;
+}
