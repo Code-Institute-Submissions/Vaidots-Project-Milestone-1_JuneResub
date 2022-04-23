@@ -211,3 +211,36 @@ hr {
     padding-bottom: 3%;
 }
 
+#schedule {
+    /* background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+    overflow: hidden; */
+}
+
+.schedule-time-day {
+    background-color: peachpuff;
+    width: 10%;
+    float: left;
+    margin-left: 18%;
+    text-align: center;
+    
+
+}
+
+.schedule-time-day > h3 {
+    margin-top: 5%;
+    font-size: 1rem;
+}
+
+.schedule-time-day > h2 {
+    margin-top: 10%;
+    font-size: 2rem;
+}
+
+.schedule-time-day:hover {
+    transform: scale(1.3);
+ }
+}
