@@ -46,12 +46,33 @@
     </nav>
     
 </section>
-<section>
-    <form method="POST" class="signup-section">
+<section id="signup-section">
+    <form method="POST" class="signup-form">
         <h2>Sign Up</h2>
         <h3>Fill in the form and join our yoga family </h3>
         <label for="fname">First Name</label>
-        <input type="text" id="fname" name="First Name" class="text-input">
+        <input type="text" id="fname" name="first-name" placeholder="Enter First Name" class="text-input" required>
+
+        <label for="lname">Last Name</label>
+        <input type="text" id="fname" name="last name" placeholder="Enter Last Name" class="text-input" required>
+
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email-adress" placeholder="Enter Email Address" class="text-input" required>
+
+        <label for="yoga">Yoga</label>
+        <input type="radio" id="yoga" name="preferences" value="yoga"   required>
+
+        <label for="meditation">Meditation</label>
+        <input type="radio" id="meditation" name="preferences" value="meditation"   required>
+
+        <label for="yoga">Pilates</label>
+        <input type="radio" id="pilates" name="preferences" value="pilates"   required>
+
+        <label for="yoga">All</label>
+        <input type="radio" id="all" name="preferences" value="all"   required>
+
+        <input type="submit" value="Let's Get Started" class="join-button">
+
     </form>
 </section>
         
