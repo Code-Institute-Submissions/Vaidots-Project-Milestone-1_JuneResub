@@ -278,3 +278,51 @@ hr {
     padding: 50px;
     
 }
+
+/* Sign up form */
+
+.signup-form {
+    background-color: peachpuff;
+    background-size: cover;
+    height: 500px;
+}
+
+.header-section  {
+    height: 500px;
+}
+/* .navigation-bar > #menu > li a{
+    color: black;
+} */
+
+.signup-form {
+
+    padding: 15px;
+    display: inline-grid;
+    border-radius: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 30%;
+    display: grid;
+    background-color: rgb(6 6 6 / 80%);
+    color: #f1f3f5;
+    padding: 50px;
+}
+
+.text-input {
+    padding-top: 10px;
+}
+
+.signup-form-classes {
+    padding-top: 10px;
+}
+
+.join-button {
+    font-size: 20px;
+}
+
+.join-button:hover {
+    opacity: 0.8;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+}
