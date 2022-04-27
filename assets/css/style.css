@@ -194,9 +194,11 @@ hr {
     height: 300px;
     padding: 30px;
     justify-content: space-evenly;
-   
-    
+    object-fit: cover; 
 }
+
+
+
 .team-shapping > img:hover {
     transform: scale(1.2);
 }
