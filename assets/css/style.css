@@ -305,9 +305,6 @@ hr {
 .header-section  {
     height: 500px;
 }
-/* .navigation-bar > #menu > li a{
-    color: black;
-} */
 
 .signup-form {
 
@@ -370,4 +367,10 @@ hr {
 
 .submit-contact-form-classes {
     margin-top: 10px;
+}
+
+
+input, textarea {
+    padding: 8px 8px;
+    font-size: 1rem;
 }
