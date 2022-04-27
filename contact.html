@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <header class="contact-signup-forms">
+    <header >
 
         <h2 class="yoga1"></h2>
 
@@ -23,7 +23,7 @@
                     <a href="signup.html">Sign Up</a>
                 </li>
                 <li>
-                    <a href="contact.html">Contact</a>
+                    <a href="#">Contact</a>
                 </li>
                 <li>
                     <a href="#classes">Classes</a>
@@ -39,48 +39,46 @@
             </ul>
         </nav>
     </header>
-    <!-- <div class="header-section">  -->
     <section class="header">
-        <nav >
-            <a href="index.html" id="logo" class="logo1"> <img src="assets/images/buddhist-yoga-pose (3).png" ></a>
-        </nav>
-    </section>
-    <!-- </div> -->
-
-<section id="signup-section">
+    <nav >
+        <a href="index.html" id="logo" class="logo1"> <img src="assets/images/buddhist-yoga-pose (3).png" ></a>
+    </nav>
+    
+</section>
+    <section id="contact-section">
+    
     <div class="container">
-    <form method="POST" class="signup-form">
-        <h2>Sign Up</h2>
-        <h3>Fill in the form and join our yoga family </h3>
-        <label for="fname" class="text-input">First Name</label>
-        <input type="text" id="fname" name="first-name"   required>
+        <form method="POST" class="signup-form">
+            <h2>Contact Us !</h2>
+            <label for="fname" class="text-input">First Name</label>
+            <input type="text" id="fname" name="first-name"   required>
+    
+            <label for="lname" class="text-input">Last Name</label>
+            <input type="text" id="fname" name="last name"  required>
+    
+            <div class="submit-contact-form-classes">
+            <label for="yoga" >Yoga</label>
+            <input type="radio" id="yoga" name="preferences" value="yoga"   required>
 
-        <label for="lname" class="text-input">Last Name</label>
-        <input type="text" id="fname" name="last name"  required>
+            <label for="meditation" >Meditation</label>
+            <input type="radio" id="meditation" name="preferences" value="meditation"   required>
 
-        <label for="email" class="text-input">Email Address</label>
-        <input type="email" id="email" name="email-adress"   required>
+            <label for="yoga">Pilates</label>
+            <input type="radio" id="pilates" name="preferences" value="pilates"   required>
 
-            <div class="signup-form-classes">
-                <label for="yoga" >Yoga</label>
-                <input type="radio" id="yoga" name="preferences" value="yoga"   required>
-
-                <label for="meditation" >Meditation</label>
-                <input type="radio" id="meditation" name="preferences" value="meditation"   required>
-
-                <label for="yoga">Pilates</label>
-                <input type="radio" id="pilates" name="preferences" value="pilates"   required>
-
-                <label for="yoga" >All</label>
-                <input type="radio" id="all" name="preferences" value="all"   required>
-            </div>  
-
-        <input type="submit" value="Let's Get Started" class="submit-button">
-        <input type="submit" value=" Go Back" onclick="history.go(-1)" class="back-button">
-
+            <label for="yoga" >All</label>
+            <input type="radio" id="all" name="preferences" value="all"   required>
+                </div>
+            <label for="subject">Your Message</label>
+            <textarea id="subject" name="subject" placeholder="type here" ></textarea>
+                 
+    
+            <input type="submit" value="Submit" class="submit-contact-button">
+            <input type="submit" value=" Go Back" onclick="history.go(-1)" class="back-button">
+          
 
     </form>
-</div>
+    </div>
 </section>
         
             <h2 class="footer-h2">Find Us On:</h2>

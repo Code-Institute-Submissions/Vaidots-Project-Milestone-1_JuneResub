@@ -319,6 +319,7 @@ hr {
     background-color: rgb(6 6 6 / 80%);
     color: #f1f3f5;
     padding: 50px;
+    margin-top: 100px;
 }
 
 .text-input {
@@ -329,11 +330,11 @@ hr {
     padding-top: 10px;
 }
 
-.join-button {
+.submit-button {
     font-size: 20px;
 }
 
-.join-button:hover {
+.submit-button:hover {
     opacity: 0.8;
     background-color: red;
     color: white;
@@ -352,4 +353,19 @@ hr {
     background-color: red;
     color: white;
     font-size: 20px;
+}
+.submit-contact-button {
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.submit-contact-button:hover {
+    opacity: 0.8;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+}
+
+.submit-contact-form-classes {
+    margin-top: 10px;
 }
