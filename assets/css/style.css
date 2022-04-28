@@ -396,7 +396,7 @@ input, textarea {
     font-size: 1rem;
 }
 
-/* For larger to medium screens 1260px wide and down*/
+/* For larger to medium screens 1281px wide and down*/
 
  @media screen and (max-width: 1281px) { 
 
@@ -520,7 +520,13 @@ input, textarea {
         margin-left: 30px;
         margin-right: 10px;
     }
+    .back-button {
+        width: 40%;
+        display: grid;
+        margin-top: 10%;
+        font-size: 20px;
 }
+ }
 
 /* tablet size */
 
@@ -545,6 +551,13 @@ input, textarea {
     .class-text-left {
         font-size: .9rem;
     }
+
+    .back-button {
+        width: 37%;
+        display: grid;
+        margin-top: 10%;
+        font-size: 20px;
+}
 }
 /* mobile size */
 
@@ -559,3 +572,4 @@ input, textarea {
 
 }
 
+  
