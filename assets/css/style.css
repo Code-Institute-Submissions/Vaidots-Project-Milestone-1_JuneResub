@@ -404,32 +404,47 @@ input, textarea {
         margin-right: 40px;
     }
     
+    .class-try {
+        margin-bottom: 30px;
+        text-align: center;
+        text-transform: uppercase;
+        padding-top: 2%;
+        font-size: 2rem;
+        padding-bottom: 2%;
+        margin-top: 30px;
+        margin-left: 30%;
+    }
+    #classes {
+        margin-right: 25%;
+        margin-left: 25%;
+    }
     .class-content-wrapper1, .class-content-wrapper3 {
         flex-direction: column;
         padding-top: 20px;
         width: 100%;
         padding-left: 0;
-        margin-left: 30%;
+    
     }
 
     .class-content-wrapper2 {
         padding-top: 20px;
         width: 100%;
         padding-left: 0;
-        margin-left: 30%;
         flex-direction: column-reverse;
+        margin-bottom: 100px;
     }
     .text-right {
         width: 600px;
-        height: 600px;
+        height: 450px;
         margin-left: 0;
         padding-right: 0;
 
     }
 
+
     .text-left {
         width: 600px;
-        height: 600px;
+        height: 450px;
         margin-left: 0;
         padding-right: 0;
     }
@@ -448,6 +463,14 @@ input, textarea {
         border-radius: 15%;
         height: 468px;
         width: 100%;
+        padding-left: 0;
+    }
+
+    .picture-right > img {
+        border-radius: 15%;
+        height: 468px;
+        width: 100%;
+        padding-left: 0;
     }
     .class-text-left {
        margin-left: 0;
@@ -463,109 +486,33 @@ input, textarea {
     }
     .class-content-wrapper2 {
         flex-direction: column-reverse; 
-    
-    /* .class-content-wrapper1 > .picture-left {
-        margin-left: 300px;
     }
-    .class-content-wrapper1 > .text-right {
-        width: 50%;
-        margin-left: 250px;
-        padding: 50px;
-    
+
+    #our-team {
+        margin-right: 25%;
+        margin-left: 25%;;
     }
-    .class-content-wrapper2 > .text-left {
-        margin-left: 300px;
-    }
-    .class-content-wrapper2 > .picture-right {
-        margin-left: 300px;
-    }
-    .class-content-wrapper3 > .picture-left {
-        margin-left: 300px;
-    }
-    .class-content-wrapper3 > .text-right {
-        width: 50%;
-        margin-left: 250px;
-        padding: 50px;
-    } */
 
-    /* .team {
-        /* width: 300px;
-        margin-left: 30%; */
-/* 
-        display: contents;
-    } */
-
-/* }
-    
-@media screen and (max-width:1024px) {
-    
-} */ 
-/* .class-content-wrapper1 > .picture-left {
-    margin-left: 250px;
-}
-.class-content-wrapper1 >.text-right {
-    margin-left: 250px;
-}
-
-.class-content-wrapper3 > .picture-left {
-    margin-left: 250px;
-}
-.class-content-wrapper3 >.text-right {
-    margin-left: 250px;
-}  */
-
-/* .text-left {
-    margin-left: 150px;
-}
-.class-content-wrapper2 >.picture-right {
-    margin-left: 250px;
-}
-    .header {
-        width: 100%;
-    }
-     */
-
-
-/* @media screen and (max-width:764px) {
-    .class-content-wrapper1, .class-content-wrapper3 {
-        flex-direction: column;
-        margin-left: 7%;
-        width: 1200px;
-        padding-left: 0;
-        font-size: .9;
-}
-.picture-left {
-    margin-left: 65px */
-
-/* .text-right {
-    margin-left: 65px;
-    display: block;
-    width: 85%; */
-    
-
-/* }
-.text-left {
-    display: block;
-    width: 70%;
-    margin-left: 65px;
-}
-.picture-right {
-    margin-left: 65px;
-}
-        .team {
-            font-size: .9rem;
-        }
-}
-
-
-@media screen and (max-width:480px) {
-    .class-content-wrapper1, .class-content-wrapper3 {
-    flex-direction: column;
-    margin-left: 100%;
-    font-size: .7rem;
-    width: 100px;
-    }
     .team {
-        font-size: .7rem;
+         width: 300px;
+        margin-left: 30%; 
+        display: contents;
     }
-} */ 
+
+    #schedule {
+        margin-right: 25%;
+        margin-left: 25%;
+        
+    }
+
+    .schedule-time-day {
+        background-color: peachpuff;
+        width: 150px;
+        text-align: center;
+        padding: 20px;
+        border-radius: 30%;
+        margin-left: 30px;
+        margin-right: 10px;
+    }
+}
+
