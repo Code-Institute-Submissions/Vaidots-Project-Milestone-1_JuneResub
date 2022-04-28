@@ -88,10 +88,9 @@ body {
 
 .class-content-wrapper1,.class-content-wrapper2, .class-content-wrapper3  {
     display:flex;
-    max-width: 1500px;
     width: 100%; 
     padding: 20px 0;
-    margin: 0 auto;
+    
 }
 
 /* .class-content-wrapper3  {
@@ -107,20 +106,36 @@ body {
 }
 
 .text-right {
+    /* float: right;
+    width: 50%;
+    margin-left: 60px;
+    padding-right: 30px; */
+    margin-left: 60px;
+    padding-right: 30px;
     float: right;
     width: 50%;
+    height: fit-content;
 }
 
+
 .picture-left {
-    width: 45%;
+    height: 358px;
+    width: 50%;
     
+}
+
+.picture-right {
+
+    height: 358px;
+    width: 50%;
 }
 
 .class-text-right {
     text-align: justify;
     padding: 50px;
     line-height: 25px;
-    margin-left: 5%;
+    margin-left: 0%;
+    display: inline-block;
 
     
 }
@@ -138,14 +153,21 @@ body {
 
 }
 
-.picture-right {
-    width: 50%;
-   
+.picture-right > img  {
+    height: 468px;
+    width: 86%;
+    border-radius: 15%;
+    padding: 50px;
+    padding-left: 30px;
 }
-.picture {
-    border-radius: 10%;
-    
+.picture-left > img {
+    border-radius: 15%;
+    height: 468px;
+    width: 80%;
+    padding-left: 30px;
 }
+
+
 
 hr {
     border-top: 1px solid black;
@@ -374,17 +396,61 @@ input, textarea {
 
 /* For larger to medium screens 1260px wide and down*/
 
-@media screen and (max-width: 1281px) {
-    .class-content-wrapper1, .class-content-wrapper3 {
-        flex-direction: column;
-        /* width: 1200px;
-        padding-left: 0; */
+ @media screen and (max-width: 1281px) { 
+
+    #menu li {
+        float: right; 
+        list-style-type: none;
+        margin-right: 40px;
     }
     
-    .class-content-wrapper2 {
-        flex-direction: column-reverse;
+    .class-content-wrapper1, .class-content-wrapper3 {
+        flex-direction: column;
+        padding-top: 20px;
+        width: 100%;
+        padding-left: 0;
+        margin-left: 30%;
     }
-    .class-content-wrapper1 > .picture-left {
+    .text-right {
+        width: 600px;
+        height: 600px;
+        margin-left: 0;
+        padding-right: 0;
+
+    }
+
+    .text-left {
+        padding-top: 10%;
+    }
+    .picture-left {
+        height: 500px;
+        width: 600px;
+        
+    }
+
+    .picture-right {
+        height: 500px;
+        width: 600px;
+    }
+    
+    .picture-left > img {
+        border-radius: 15%;
+        height: 468px;
+        width: 100%;
+    }
+    .header {
+        min-height: 50vh;
+        width: 104%;
+    }
+
+    .centered {
+        top: 33%;
+        left: 53%;
+    }
+    .class-content-wrapper2 {
+        flex-direction: column-reverse; 
+    
+    /* .class-content-wrapper1 > .picture-left {
         margin-left: 300px;
     }
     .class-content-wrapper1 > .text-right {
@@ -406,21 +472,21 @@ input, textarea {
         width: 50%;
         margin-left: 250px;
         padding: 50px;
-    }
+    } */
 
-    .team {
+    /* .team {
         /* width: 300px;
         margin-left: 30%; */
-
+/* 
         display: contents;
-    }
+    } */
 
-}
+/* }
     
 @media screen and (max-width:1024px) {
     
-}
-.class-content-wrapper1 > .picture-left {
+} */ 
+/* .class-content-wrapper1 > .picture-left {
     margin-left: 250px;
 }
 .class-content-wrapper1 >.text-right {
@@ -432,9 +498,9 @@ input, textarea {
 }
 .class-content-wrapper3 >.text-right {
     margin-left: 250px;
-} 
+}  */
 
-.text-left {
+/* .text-left {
     margin-left: 150px;
 }
 .class-content-wrapper2 >.picture-right {
@@ -443,10 +509,10 @@ input, textarea {
     .header {
         width: 100%;
     }
-    
+     */
 
 
-@media screen and (max-width:764px) {
+/* @media screen and (max-width:764px) {
     .class-content-wrapper1, .class-content-wrapper3 {
         flex-direction: column;
         margin-left: 7%;
@@ -455,14 +521,15 @@ input, textarea {
         font-size: .9;
 }
 .picture-left {
-    margin-left: 65px
-}
-.text-right {
+    margin-left: 65px */
+
+/* .text-right {
     margin-left: 65px;
     display: block;
-    width: 85%;
+    width: 85%; */
+    
 
-}
+/* }
 .text-left {
     display: block;
     width: 70%;
@@ -487,4 +554,4 @@ input, textarea {
     .team {
         font-size: .7rem;
     }
-}
+} */ 
