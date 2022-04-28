@@ -21,13 +21,10 @@ body {
     min-height: 60vh;
     width: 100%;
     background-image: url('../images/banner..jpg');
-    background-position: center;
-    background-size: cover;
+    /* background-position: center;
+    background-size: cover; */
    
    
-}
-nav {
-    position: absolute;
 }
    
 #logo {
@@ -482,12 +479,16 @@ input, textarea {
     }
     .header {
         min-height: 50vh;
-        width: 104%;
+        width: 100%;
     }
 
     .centered {
         top: 33%;
         left: 53%;
+        font-size: 0.8rem;
+    }
+    .centered > h1 {
+        font-size: 2.5rem;
     }
     .class-content-wrapper2 {
         flex-direction: column-reverse; 
@@ -519,5 +520,42 @@ input, textarea {
         margin-left: 30px;
         margin-right: 10px;
     }
+}
+
+/* tablet size */
+
+  
+@media screen and (max-width: 845px) {
+    body { width: 865px;
+    }
+    .centered > h1 {
+        font-size: 2rem;
+    }
+    #classes {
+        margin-right: 15%;
+        margin-left: 15%;
+    }
+    #classes > h2 {
+        margin-left: 5px;
+    }
+
+    .class-text-right {
+        font-size: .9rem;
+    }
+    .class-text-left {
+        font-size: .9rem;
+    }
+}
+/* mobile size */
+
+@media screen and (max-width: 480px) {
+
+    .centered {
+    top: 33%;
+    left: 74%;
+    font-size: 0.8rem;
+    display: -webkit-box;
+    }
+
 }
 
