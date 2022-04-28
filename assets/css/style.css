@@ -411,6 +411,14 @@ input, textarea {
         padding-left: 0;
         margin-left: 30%;
     }
+
+    .class-content-wrapper2 {
+        padding-top: 20px;
+        width: 100%;
+        padding-left: 0;
+        margin-left: 30%;
+        flex-direction: column-reverse;
+    }
     .text-right {
         width: 600px;
         height: 600px;
@@ -420,7 +428,10 @@ input, textarea {
     }
 
     .text-left {
-        padding-top: 10%;
+        width: 600px;
+        height: 600px;
+        margin-left: 0;
+        padding-right: 0;
     }
     .picture-left {
         height: 500px;
@@ -437,6 +448,9 @@ input, textarea {
         border-radius: 15%;
         height: 468px;
         width: 100%;
+    }
+    .class-text-left {
+       margin-left: 0;
     }
     .header {
         min-height: 50vh;
