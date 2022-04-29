@@ -131,3 +131,27 @@ git
 * Change the current working directory to the location where you want the cloned directory.
 * Type git clone and paste the URL you just copied.
 * Click enter and your local clone will be created.
+
+# Credits
+
+## Code
+
+* Code institutes love runing and [w3school](http://https://www.w3schools.com/) helped me to style and write signup/contact forms.
+
+## Content 
+
+* Content was taken from various sources, only for educational purposes. 
+[Yoga](http://https://www.marbellafamilyfun.com/why-is-yoga-so-good-for-you.html), [Meditation](http://https://thebuddhistcentre.com/text/what-meditation), [Pilates](http://https://www.self.com/story/5-things-to-know-before-you-take-pilates-classes), [yoga-benefits](http://https://www.mayoclinic.org/healthy-lifestyle/stress-management/in-depth/tai-chi/art-20045184), [meditation-benefits](http://https://www.healthline.com/nutrition/12-benefits-of-meditation), [Pilates-benefits](http://https://www.healthline.com/nutrition/pilates-benefits).
+
+## Media
+
+* All media pictures were used from [Pixels](http://https://www.pexels.com/)
+
+## Code
+
+* Majority of the code were used from [w3school](http://https://www.w3schools.com/)
+
+## Big thank you for !
+
+* Slack community for having answered majority of the questions without me needing to ask, just research if anyone had a similar problem and there will be plenty of answers
+* Thanks to my mentor setting me one the right track.
