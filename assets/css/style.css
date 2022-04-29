@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,500&display=swap');
 
 
@@ -11,8 +10,7 @@
 }
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: blanchedalmond;
-
+    background-color:#fafad2
 }
 
 /* headings and logo */
@@ -20,9 +18,8 @@ body {
 .header {
     min-height: 60vh;
     width: 100%;
-    background-image: url('../images/banner..jpg');
-    /* background-position: center;
-    background-size: cover; */
+    background-image: url('../images/banner5.jpg');
+    
    
    
 }
@@ -45,7 +42,7 @@ body {
     top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color:white;
+    color:gree;
     font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
   }
