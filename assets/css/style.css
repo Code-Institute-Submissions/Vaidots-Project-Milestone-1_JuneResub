@@ -563,12 +563,125 @@ input, textarea {
 
 @media screen and (max-width: 480px) {
 
-    .centered {
-    top: 33%;
-    left: 74%;
-    font-size: 0.8rem;
-    display: -webkit-box;
+    body {
+        width: 420px;
     }
+    .header {
+        min-height: 50vh;
+        width: 458px;
+    }
+    #menu {
+        line-height: 80px;
+    }
+    #logo {
+        display: none;
+    }
+
+    .centered {
+        top: 33%;
+        left: 53%;
+        font-size: 0.8rem;
+    }
+    .centered > p {
+        display: none;
+    }
+
+    #classes {
+        margin-right: 11%;
+        margin-left: 11%;
+    }
+
+    #classes > h2 {
+        margin-left: 5px;
+        font-size: 1.5rem;
+    }
+    .picture-left {
+        height: 400px;
+        width: 387px;
+    }
+    .picture-left > img {
+        border-radius: 15%;
+        height: 321px;
+        width: 92%;
+        padding-left: 0;
+    }
+    .text-right {
+        width: 337px;
+        height: 480px;
+        margin-left: 0;
+        padding-right: 0;
+    }
+    .text-left {
+        width: 337px;
+        height: 450px;
+        margin-left: 0;
+        padding-right: 0;
+    }
+    .class-text-left {
+        font-size: .9rem;
+    }
+    .picture-right {
+        height: 500px;
+        width: 335px;
+    }
+    .picture-right > img {
+        border-radius: 15%;
+        height: 321px;
+        width: 106%;
+        padding-left: 0;
+    }
+    #our-team {
+        margin-left: 26%;
+    }
+    .our-team-center {
+        text-align: center;
+        text-transform: uppercase;
+        padding-top: 3%;
+        font-size: 1.8rem;
+        padding-bottom: 5%;
+    }
+    
+    .team-shapping > img {
+        border-radius: 50%;
+        width: 250px;
+        height: 250px;
+        padding: 30px;
+        justify-content: space-evenly;
+        object-fit: cover;
+    }
+    .our-schedule-center {
+        text-align: center;
+        text-transform: uppercase;
+        padding-top: 10%;
+        font-size: 1.5rem;
+        padding-bottom: 10%;
+        margin-left: 53px;
+    }
+    #schedule {
+        margin-left: 25%;
+    }
+    .schedule-time-day {
+        background-color: peachpuff;
+        width: 67px;
+        text-align: center;
+        padding: 20px;
+        border-radius: 30%;
+        margin-left: 16px;
+    }
+    .schedule-time-day > h2 {
+        margin-top: 10%;
+        font-size: 1rem;
+    }
+    .schedule-time-day > h3 {
+        margin-top: 5%;
+        font-size: .8rem;
+    }
+    .footer-h2 {
+        text-align: center;
+        padding-top: 50px;
+    }
+
+
 
 }
 
