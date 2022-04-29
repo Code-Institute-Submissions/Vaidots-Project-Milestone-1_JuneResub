@@ -103,8 +103,7 @@ git
 * [Gitpod](https://gitpod.io/workspaces) to create and edit a project
 * [Github](https://github.com/) storing and deploying your project
 * [Google Fonts¨](https://fonts.google.com/) to find fonts and import into your project
-* [Jigsaw Validator](https://jigsaw.w3.org/css-validator/) check if the css code has any issues.
-* [W3C Markup Validation](https://wave.webaim.org/)
+* [W3C Markup Validation](https://wave.webaim.org/)check if the css code has any issues.
 * [DevTools](https://developer.chrome.com/docs/devtools/) for editing existed project codes without doing any harm by writing a code on top, also to do a lighouse test for performace, SEO, best practice and accesability.
 
 #Testing

@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,500&display=swap');
 
-
 * {
     margin: 0;
     padding: 0;
@@ -19,9 +18,7 @@ body {
     min-height: 60vh;
     width: 100%;
     background-image: url('../images/banner5.jpg');
-    
-   
-   
+      
 }
    
 #logo {
@@ -46,6 +43,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
   }
+
   .centered > h1 {
       font-size: 50px;
   }
@@ -58,11 +56,11 @@ body {
     font-family: 'Oswald', sans-serif;
        
 }
+
 #menu, #logo {
     line-height: 150px;
     
 }
-
  
 #menu > li a {
     box-shadow: inset 0 0 0 0 blanchedalmond;
@@ -77,11 +75,6 @@ body {
     box-shadow: inset 100px 0 0 0 blanchedalmond;
     color: black;
   }
- 
-  
-
-
-
 
 /*  classes and schedule */
 
@@ -92,10 +85,6 @@ body {
     
 }
 
-/* .class-content-wrapper3  {
-    flex-direction: column-reverse;  */
-/* } */
-
  .class-try {
     text-align: center;
     text-transform: uppercase;
@@ -105,17 +94,12 @@ body {
 }
 
 .text-right {
-    /* float: right;
-    width: 50%;
-    margin-left: 60px;
-    padding-right: 30px; */
     margin-left: 60px;
     padding-right: 30px;
     float: right;
     width: 50%;
     height: fit-content;
 }
-
 
 .picture-left {
     height: 358px;
@@ -135,8 +119,7 @@ body {
     line-height: 25px;
     margin-left: 0%;
     display: inline-block;
-
-    
+ 
 }
 
 .text-left {
@@ -159,6 +142,7 @@ body {
     padding: 50px;
     padding-left: 30px;
 }
+
 .picture-left > img {
     border-radius: 15%;
     height: 468px;
@@ -166,15 +150,12 @@ body {
     padding-left: 30px;
 }
 
-
-
 hr {
     border-top: 1px solid black;
     width: 100%;
     margin: 10px 0;
 }
  
-
 .class-section-hr {
     display: table;
     margin-right: auto;
@@ -193,7 +174,6 @@ hr {
     margin-top: 5%;
 
 }
-
 
 .class-text-right > p   {
     margin-bottom: 5%
@@ -217,8 +197,6 @@ hr {
     justify-content: space-evenly;
     object-fit: cover; 
 }
-
-
 
 .team-shapping > img:hover {
     transform: scale(1.2);
@@ -244,7 +222,6 @@ hr {
 
 /* Schedule */
 
-
 .our-schedule-center {
     text-align: center;
     text-transform: uppercase;
@@ -264,9 +241,6 @@ hr {
     text-align: center;
     padding: 20px;
     border-radius: 10%;
-
-    
-
 }
 
 .schedule-time-day > h3 {
@@ -297,9 +271,6 @@ hr {
     text-transform: uppercase;
     font-size: larger;
     font-family: oswald,sans-serif;
-    
-    
-   
 }
 .social-network {
     
@@ -387,7 +358,6 @@ hr {
     margin-top: 10px;
 }
 
-
 input, textarea {
     padding: 8px 8px;
     font-size: 1rem;
@@ -437,7 +407,6 @@ input, textarea {
         height: 450px;
         margin-left: 0;
         padding-right: 0;
-
     }
 
 
@@ -449,8 +418,7 @@ input, textarea {
     }
     .picture-left {
         height: 500px;
-        width: 600px;
-        
+        width: 600px;  
     }
 
     .picture-right {
