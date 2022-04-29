@@ -1,8 +1,11 @@
 # Yoga practice
 Yoga practice is a website for people who look to improve their physical and spiritual body. The primary goal of this webpage is to teach people how wonderful and useful yoga practice is. The layout and content is simple and welcoming for everyone.
 
+![responsive](/assets/images/Am%20i%20responsive.png)
+
 
 # User Experience UX
+
 ## Ideal client
 English speaking.
 * People interested in physical activity and healthy lifestyle.
@@ -81,6 +84,7 @@ English speaking.
 * The form as simple and clear layout, user needs to fill all detail in order to procede.
 * Options are made to be more precise why would an user want to contact.
 * Submit and go back buttons are styled and has a hover effect, clearly showing a change if hovered on them. Go back button has a history.go(-1) element, which lets the user go back to the previous page if wanted.
+![contact-form](/assets/images/contact-us.PNG)
 
 # Sign up form
 
