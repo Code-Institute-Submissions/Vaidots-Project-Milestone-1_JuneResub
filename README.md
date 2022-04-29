@@ -108,3 +108,14 @@ git
 * [DevTools](https://developer.chrome.com/docs/devtools/) for editing existed project codes without doing any harm by writing a code on top, also to do a lighouse test for performace, SEO, best practice and accesability.
 
 #Testing
+
+* W3C Markup Validator- found a few color matchin errors, which was fixed.
+* jigsaw validator- did not found any issues with the code
+* Lighthouse score for dekstop 
+
+![Lighouse dekstop](/assets/images/lighthouse-dekstop.png)
+
+* Lighthouse score for mobile 
+
+![lightouse mobile](/assets/images/lightouse-mobile.png)
+
