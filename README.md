@@ -119,3 +119,15 @@ git
 
 ![lightouse mobile](/assets/images/lightouse-mobile.png)
 
+
+# Deployment 
+
+- Firstly, creating a gitpod account, the main browser is being used Chrome. Add the gitpod extension into chrome, log into gitpod with your registered account, check for project github respirotry which will let you creat a new repository, when clicked on gitpod green button.
+
+* From GitHub navigate to the main page of the repository.
+* Select the "code" button above the file list.
+* Below the respitory, click Dowload
+* In your local IDE open a terminal.
+* Change the current working directory to the location where you want the cloned directory.
+* Type git clone and paste the URL you just copied.
+* Click enter and your local clone will be created.
