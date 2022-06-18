@@ -480,6 +480,28 @@ input, textarea {
         min-height: 30vh;
 
     }
+    .classes-pictures>img {
+        max-width: 100%;
+        margin-left: 20%;
+
+    }
+
+    .class-content-wrapper1 {
+        max-width: 80%;
+        margin-bottom: 0px;
+        margin-left: 5%;
+    }
+
+    .classes-pictures {
+        width: 80%;
+        margin: 2%;
+    }
+
+    .classes-text {
+        width: 80%;
+        margin: 2%;
+        margin-left: 20%;
+    }
 
 
   
