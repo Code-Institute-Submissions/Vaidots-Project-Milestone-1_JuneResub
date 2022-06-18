@@ -522,6 +522,25 @@ input, textarea {
     .schedule-time-day {
         margin-left: 15px;
     }
+}    
+
+    /* Extra small devices */
+    @media screen and (max-width: 300px) {
+        html {
+            font-size: 0.6rem
+        }
+
+        .team-shapping>img {
+            width: 200px;
+            height: 220px;
+        }
+
+        .teachers-text {
+            margin-left: 3%;
+        }
+
+
+    }
 
 
   
