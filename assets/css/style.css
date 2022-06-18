@@ -465,6 +465,9 @@ input, textarea {
         text-align: center;
         margin-left: -50px !important;
     }
+    .signup-form {
+        width: 62%;
+    }
 }
 
   
