@@ -14,11 +14,9 @@ body {
 
 /* headings and logo */
 
-.header {
-    min-height: 60vh;
+header {
+    height: 10vh;
     width: 100%;
-    background-image: url('../images/banner5.jpg');
-      
 }
    
 .header {
@@ -50,6 +48,17 @@ body {
   .centered > h1 {
       font-size: 50px;
   }
+
+  .centered>p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+h2.class-try {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
 
 /* navigation lines */
 
