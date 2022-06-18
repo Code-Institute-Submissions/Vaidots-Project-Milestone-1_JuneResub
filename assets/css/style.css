@@ -470,6 +470,18 @@ input, textarea {
     }
 }
 
+@media screen and (max-width: 500px) {
+
+    html {
+        font-size: 0.8rem;
+    }
+
+    .header {
+        min-height: 30vh;
+
+    }
+
+
   
 
   
