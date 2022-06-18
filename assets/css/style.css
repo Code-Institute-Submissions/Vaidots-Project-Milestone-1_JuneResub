@@ -377,6 +377,43 @@ input, textarea {
         list-style-type: none;
         margin-right: 40px;
     }
+    .class-try {
+        text-transform: uppercase;
+        padding-top: 2%;
+        font-size: 1.5rem;
+        padding-bottom: 2%;
+    }
+
+    #classes {
+        text-align: center;
+        display: grid;
+        width: fit-content;
+    }
+
+    .class-content-wrapper1 {
+        flex-direction: column;
+        width: 600px;
+        padding: 20px 0;
+        display: grid;
+        padding-top: 20px;
+        width: 100%;
+        padding-left: 0;
+        flex-direction: column-reverse;
+        
+    }
+
+    .classes-pictures>img {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .classes-pictures {
+        width: 450px;
+        height: 300px;
+        margin: auto;
+        margin-bottom: 30px;
+        padding-right: 0
+    }
 }
 
   
