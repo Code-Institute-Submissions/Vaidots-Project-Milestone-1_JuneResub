@@ -12,7 +12,10 @@ body {
     background-color:white
 }
 
-/* headings and logo */
+header {
+    width: 100%;
+    height: 10vh;
+}
 
    
 .header {
