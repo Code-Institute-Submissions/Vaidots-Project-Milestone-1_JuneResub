@@ -459,6 +459,14 @@ input, textarea {
 
 }
 
+/* For smaller devices, phones max width 540px and below*/
+@media screen and (max-width: 540px) {
+    .team-shapping>img {
+        text-align: center;
+        margin-left: -50px !important;
+    }
+}
+
   
 
   
