@@ -358,6 +358,11 @@ input, textarea {
         position: fixed;
         z-index: 1;
 }
+.header {
+    min-height: 50vh;
+    width: 100%;
+}
+}
 
   
 
