@@ -434,6 +434,22 @@ input, textarea {
         display: contents;
     }
 
+    .schedule-container {
+        display: grid;
+        justify-content: space-evenly;
+    }
+
+    .schedule-time-day {
+        background-color: peachpuff;
+        width: 150px;
+        text-align: center;
+        padding: 20px;
+        border-radius: 30%;
+        margin-left: 30px;
+        margin-right: 10px;
+        margin-top: 40px;
+    }
+
 }
 
   
