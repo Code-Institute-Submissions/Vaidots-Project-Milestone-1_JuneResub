@@ -357,11 +357,26 @@ input, textarea {
         color: white;
         position: fixed;
         z-index: 1;
-}
-.header {
-    min-height: 50vh;
-    width: 100%;
-}
+        }
+    .header {
+        min-height: 50vh;
+        width: 100%;
+        }
+    .centered {
+        top: 50%;
+        left: 50%;
+        font-size: 0.8rem;
+    }
+
+    .centered>h1 {
+        font-size: 2rem;
+    }
+
+    #menu li {
+        float: right;
+        list-style-type: none;
+        margin-right: 40px;
+    }
 }
 
   
