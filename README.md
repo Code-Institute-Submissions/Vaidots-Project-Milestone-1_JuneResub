@@ -121,12 +121,13 @@ English speaking.
 ![HTMLvalidator](/assets/images/HTMLindex.PNG)
 ![HTMLvalidator](/assets/images/HTMLsignup.PNG)
 ![HTMLvalidator](/assets/images/HTMLcontact.PNG)
+![CSSvalidator](/assets/images/JigsawCSSValidator.PNG)
 
 # Deployment 
 
 - Firstly, creating a gitpod account, the main browser is being used Chrome. Add the gitpod extension into chrome, log into gitpod with your registered account, check for project github respirotry which will let you creat a new repository, when clicked on gitpod green button.
 
-* From GitHub navigate to the main page of the repository.
+* From GitHub navigate to the main page of the rrepository.
 * Select the "code" button above the file list.
 * Below the respitory, click Dowload
 * In your local IDE open a terminal.
