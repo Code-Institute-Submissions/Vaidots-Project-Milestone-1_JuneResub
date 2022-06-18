@@ -14,10 +14,6 @@ body {
 
 /* headings and logo */
 
-header {
-    height: 10vh;
-    width: 100%;
-}
    
 .header {
     height: 100vh;
@@ -37,12 +33,15 @@ header {
 
 .centered {
     position: absolute;
-    top: 45%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color:black;
+    color: white;
     font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 2%;
+    border-radius: 0 50px;
   }
 
   .centered > h1 {
