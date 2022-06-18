@@ -1,7 +1,7 @@
 # Yoga practice
 Yoga practice is a website for people who look to improve their physical and spiritual body. The primary goal of this webpage is to teach people how wonderful and useful yoga practice is. The layout and content is simple and welcoming for everyone.
 
-![responsive](/assets/images/Am%20i%20responsive.png)
+![responsive](/assets/images/AmIResponsive.PNG)
 
 
 # User Experience UX
@@ -32,38 +32,35 @@ English speaking.
 
 * Images and colors
 * The images were taken from [pixel](https://www.pexels.com/)
-* The choice of these images were, cosidering its a yoga practice page, was people who are doing different types of yoga.
+* The choice of these images were inspired from yoga pictures from pixel.
 * The pictures and background color looks warm and simple for peoples eye.
 
 # Current Features
 
 - Navigation Bar
 * The navigation bar is the same in all pages
-* Navigation bar was styled for people to clearly see when they hover over them.
-* The logo and other navigation bars bring peopple to appropriate sections.
+* Navigation bar was styled simply for people to see at the top.
+* Navigation bar when clicked will take you to other pages of the website.
 
-![Navigation-bar](/assets/images/Navbar.png)
+![Navigation-bar](/assets/images/NAVBAR.PNG)
 
 ## Header image
 
-* All apges has the same image
-* Images was picked due to its calm nature, goes well with the webpages idea
+* Image was picked due to its calm nature, goes well with the webpages idea
 * The text on the image clearly specifies what yoga is.
 
-![Header-image](/assets/images/header-image.png)
+![Header-image](/assets/images/HEADERIMAGE.PNG)
 
 ## Classes 
-* Rather then putting images and description separately, this section was done in order to find the information easier, which is easier to understand about the webpage faster and more convenient.
+* Rather then putting images and description separately, this section was done in order to find the information easier, which will help to understand about the webpage faster and more convenient.
 
-![Yoga-class](/assets/images/yoga-class.png)
-![Meditation-class](/assets/images/meditation-class.png)
-![Pilates-class](/assets/images/pilates-class.png)
+![Classes](/assets/images/CLASSESSection.PNG)
 
 ## Our-team images and descriptions
 
 * Created a strongly looking team, that will help the client achieve everything they want, pictures were rounded and hover element was added for more professional and playful look. All the pictures has a description below, so people can clearly see that the team is motivated and ready to help.
 
-![Our-team](/assets/images/our-team-image.png)
+![Our-team](/assets/images/OURTEAMsection.PNG)
 
 ## Schedule
 
@@ -74,10 +71,10 @@ English speaking.
 
 ## Find us
 
-* Clear and visable links with font awesome icons to show recognisable  media platforms. Each icon and name. sends the user to the link in a seperate tab, to avoid bad costumer experience. 
+* Clear and visable links with font awesome icons to show recognisable  media platforms. Each icon, sends the user to the link in a seperate tab, to avoid bad costumer experience. 
 * style was left simple, yet eye catching
 
-![find-us](/assets/images/find-us-image.png)
+![find-us](/assets/images/FOOTERsection.PNG)
 
 # Contact us form
 
@@ -100,7 +97,6 @@ English speaking.
 # Future Features 
 
 * To all the sections style for media query will be implemented much better for phone size screens, all the marging and padding will be adjusted to obtain an aesthetic layout.
-git
 
 # Technologies used
 
@@ -116,12 +112,15 @@ git
 * jigsaw validator- did not found any issues with the code
 * Lighthouse score for dekstop 
 
-![Lighouse dekstop](/assets/images/lighthouse-dekstop.png)
+![Lighouse dekstop](/assets/images/lighthouseDekstop.PNG)
 
 * Lighthouse score for mobile 
 
-![lightouse mobile](/assets/images/lightouse-mobile.png)
+![lightouse mobile](/assets/images/lighthouseMobile.PNG)
 
+![HTMLvalidator](/assets/images/HTMLindex.PNG)
+![HTMLvalidator](/assets/images/HTMLsignup.PNG)
+![HTMLvalidator](/assets/images/HTMLcontact.PNG)
 
 # Deployment 
 
