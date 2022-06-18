@@ -101,76 +101,44 @@ h2.class-try {
 
 /*  classes and schedule */
 
-.class-content-wrapper1,.class-content-wrapper2, .class-content-wrapper3  {
+#classes {
+    text-align: center;
+    margin: auto;
+}
+
+.class-content-wrapper1  {
     display:flex;
     width: 100%; 
-    padding: 20px 0;
-    
+    padding: 20px 0;  
 }
 
- .class-try {
+.classes-text,
+.classes-pictures {
     text-align: center;
-    text-transform: uppercase;
-    padding-top: 2%;
-    font-size: 2rem;
-    padding-bottom: 2%;
-}
-
-.text-right {
-    margin-left: 60px;
-    padding-right: 30px;
-    float: right;
-    width: 50%;
-    height: fit-content;
-}
-
-.picture-left {
-    height: 358px;
-    width: 50%;
-    
-}
-
-.picture-right {
-
-    height: 358px;
-    width: 50%;
-}
-
-.class-text-right {
-    text-align: justify;
-    padding: 50px;
-    line-height: 25px;
-    margin-left: 0%;
-    display: inline-block;
- 
-}
-
-.text-left {
-    float:left;
-    width: 50%;
-}
-
-.class-text-left {
-    text-align: justify;
-    padding: 50px;
-    line-height: 25px;
-    margin-left: 5%;
-
-}
-
-.picture-right > img  {
-    height: 468px;
-    width: 86%;
+    margin-left: 2%;
+    margin-right: 2%;
     border-radius: 15%;
-    padding: 50px;
-    padding-left: 30px;
+    width: 50%;
 }
 
-.picture-left > img {
+.classes-text {
+    border: 2px dotted;
+    float: left;
+}
+
+.classes-text>h3 {
+    padding: 25px;
+}
+
+.classes-text>p {
+    padding: 10px;
+}
+
+
+.classes-pictures>img {
+    width: 100%;
+    height: 100%;
     border-radius: 15%;
-    height: 468px;
-    width: 80%;
-    padding-left: 30px;
 }
 
 hr {
@@ -178,28 +146,11 @@ hr {
     width: 100%;
     margin: 10px 0;
 }
- 
+
 .class-section-hr {
     display: table;
     margin-right: auto;
     margin-left: auto;
-  
-}
-
-.class-text-right > h3 {
-    text-align: center;
-    margin-bottom: 3%
-}
-
-.class-text-left > h3 {
-    text-align: center;
-    margin-bottom: 3%;
-    margin-top: 5%;
-
-}
-
-.class-text-right > p   {
-    margin-bottom: 5%
 }
 
 /* Our team that will make your day amazing! */
