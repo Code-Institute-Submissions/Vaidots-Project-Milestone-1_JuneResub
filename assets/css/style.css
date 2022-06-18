@@ -62,31 +62,42 @@ h2.class-try {
 
 /* navigation lines */
 
-#menu {
-    font-size: 110%;
-    letter-spacing: 4px;
-    font-family: 'Oswald', sans-serif;
-       
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
 }
 
-#menu, #logo {
-    line-height: 150px;
-    
+.brand-title {
+    font-size: 1.5rem;
+    margin: .5rem;
 }
- 
-#menu > li a {
-    box-shadow: inset 0 0 0 0 blanchedalmond;
-    color: black;
-    margin: 0 -.25rem;
-    padding: 0 .25rem;
-    transition: color .6s ease-in-out, box-shadow .6s ease-in-out;
+
+.navbar-links {
+    list-style: none;
+}
+
+.navbar-links ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-links li {
+    list-style: none;
+}
+
+.navbar-links li a {
+    display: block;
     text-decoration: none;
-  }
-
-  #menu > li a:hover {
-    box-shadow: inset 100px 0 0 0 blanchedalmond;
-    color: black;
-  }
+    color: white;
+    padding: 1rem;
+}
 
 /*  classes and schedule */
 
