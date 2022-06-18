@@ -11,7 +11,7 @@ Yoga practice is a website for people who look to improve their physical and spi
 * [Technologies](#technologies-used)
 * [Testing](#testing)
 * [Deployment](#deployment)
-# User Experience UX
+
 
 # User Experience UX
 
