@@ -3,6 +3,15 @@ Yoga practice is a website for people who look to improve their physical and spi
 
 ![responsive](/assets/images/AmIResponsive.PNG)
 
+# Table of Contents
+
+* [User Experience (UX)](#user-experience-ux)
+* [Design](#design)
+* [Current Features](#current-features)
+* [Technologies](#technologies-used)
+* [Testing](#testing)
+* [Deployment](#deployment)
+# User Experience UX
 
 # User Experience UX
 
@@ -106,7 +115,7 @@ English speaking.
 * [W3C Markup Validation](https://wave.webaim.org/)check if the css code has any issues.
 * [DevTools](https://developer.chrome.com/docs/devtools/) for editing existed project codes without doing any harm by writing a code on top, also to do a lighouse test for performace, SEO, best practice and accesability.
 
-#Testing
+# Testing
 
 * W3C Markup Validator- found a few color matchin errors, which was fixed.
 * jigsaw validator- did not found any issues with the code
