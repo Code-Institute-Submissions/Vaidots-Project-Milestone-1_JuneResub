@@ -453,7 +453,7 @@ input, textarea {
     }
 
     .back-button {
-        width: 40%;
+        width: 100%;
         display: grid;
         margin-top: 10%;
         font-size: 20px;
